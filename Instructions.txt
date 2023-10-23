@@ -1,0 +1,11 @@
+1. Game Window:
+Set up a window where the game will be rendered.
+
+2. Player Character:
+A simple player character (sprite) that can move in four directions (up, down, left, right).
+
+3. Simple Map/Environment:
+A basic map with boundaries where the player can move around.
+
+4. Basic Interaction:
+Perhaps an NPC or an object that the player can interact with (e.g., get an item or a simple dialogue).
