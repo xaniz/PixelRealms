@@ -3,6 +3,7 @@ from modules.constants import SCREEN_WIDTH, SCREEN_HEIGHT
 from modules.player import Player
 from modules.world import GameMap
 from modules.npc import NPC
+from modules.database import connect
 
 pygame.init()
 
@@ -12,6 +13,8 @@ pygame.display.set_caption('Pixel Realms')
 player = Player(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)
 npc = NPC(SCREEN_WIDTH // 4, SCREEN_HEIGHT // 4)
 game_map = GameMap()
+connect()
+
 
 running = True
 while running:
